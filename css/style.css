@@ -24,7 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 95vh;
+    height: 100vh;
 }
 .card {
     display: flex;
@@ -33,6 +33,7 @@ body {
     justify-content: space-around;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 497px;
     width: 320px;
 }
