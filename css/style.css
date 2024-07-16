@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+:root {
+    --blue: #2C7DFA;
+    --blue-shade: #3685FF;
+    --dark-navy: #1F314F;
+    --grey: #7D889E;
+    --light-grey: #D5E1EF;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: var(--light-grey);
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.container_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 20px;
+    height: 497px;
+    width: 320px;
+}
+.card__img {
+    height: 288px;
+}
+.card__img img {
+    border-radius: 10px;
+    width: 288px;
+    height: 288px;
+}
+.card__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 129px;
+    width: 288px;
+    margin-bottom: 16px;
+}
+.card__info .card__title {
+    color: var(--dark-navy);
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+.card__info .card__paragrahp {
+    color: var(--grey);
+    width: 256px;
+}
+/* -------------Footer---------------- */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
